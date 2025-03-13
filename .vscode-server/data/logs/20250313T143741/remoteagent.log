@@ -44,3 +44,7 @@
 2025-03-13 14:38:10.469 [info] [<unknown>][daca64a1][ManagementConnection] New connection established.
 2025-03-13 14:38:10.503 [info] [<unknown>][3cdadc00][ExtensionHostConnection] New connection established.
 2025-03-13 14:38:10.507 [info] [<unknown>][3cdadc00][ExtensionHostConnection] <26687> Launched Extension Host Process.
+2025-03-13 14:43:05.495 [info] New EH opened, aborting shutdown
+2025-03-13 14:43:05.497 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server/out/server-main.js:183:1060)
+    at process.emit (node:events:530:35)
